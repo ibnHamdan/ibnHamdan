@@ -1,0 +1,17 @@
+{
+  "name": "ibnhamdan.com",
+  "description": "ibnHamdn.me webSite",
+  "main": "index.js",
+  "authors": [
+    "ibnHamdan"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
