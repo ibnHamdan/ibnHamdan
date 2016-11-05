@@ -1,0 +1,208 @@
+body{
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.topbar {
+
+    ul:first-child {
+        float: left;
+    }
+    ul:last-child{
+        float: right;
+    }
+    .menu {
+         margin: 0;
+        list-style-type: none;
+    }
+    background: #2c3840 !important;
+    font-size: rem-calc(12px);
+    font-weight: bold;
+    position: relative;
+}
+
+.hero {
+    background: url("http://ibnhamdan.me/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 250px;
+
+     h1{
+         color: #ad1457;
+         font-weight: 200;
+    }
+    h2 {
+        color: #c2185b;
+        font-weight: 200;
+    }
+}
+
+.footer{
+    span.icon a{
+    padding: 5px;
+    margin: 5px;
+    font-size: rem-calc(35);
+    color: #eeeeee;
+}
+
+    padding: 1rem;
+    background: #ad1457;
+}
+
+span.icon a{
+    padding: 5px;
+    margin: 5px;
+    font-size: 35px;
+    color: #ad1457;
+}
+
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.alertcontent {
+    p,a{
+        color: #eeeeee;
+    }
+    text-align: center;
+    background-color: #372846;
+
+}
+
+
+/////
+.row.wide {
+	max-width: rem-calc(1200);
+}
+
+.contact-footer {
+	background-color: #372846;
+	padding: 3.5rem 0;
+	.round-inputs input {
+		border-radius: 1000px;
+		background-color: #4B3D58;
+		height: 3.3125rem;
+		text-align: center;
+	}
+	.round-inputs textarea {
+		border-radius: 30px;
+		background-color: #4B3D58;
+		height: 8rem;
+		text-align: center;
+	}
+	h4 {
+		color: #e5e5e5;
+		font-weight: 100;
+		margin-bottom: 0.25rem;
+	}
+	h4.phone {
+		margin-bottom: 3rem;
+		&:before {
+		  font-family: "foundation-icons";
+		  content: "\f1f8";
+		  font-weight: 300;
+		  padding-top: 0.2rem;
+		  font-size: 2rem;
+		  color: #a9a9a9;
+		  padding-left: 0.5rem;
+		  padding-right: 1.65rem;
+		  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+   		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: #a9a9a9;
+		}
+		@media only screen and (max-width: 40em) {
+			font-size: 0.875rem;
+		}
+	}
+	h4.email {
+		&:before {
+		  font-family: "foundation-icons";
+		  content: "\f16d";
+		  font-weight: 300;
+		  padding-top: 0.5rem;
+		  font-size: 2rem;
+		  color: #a9a9a9;
+		  padding-left: 0.5rem;
+		  padding-right: 1.55rem;
+		  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+   		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: #a9a9a9;
+		}
+	}
+	h4.location {
+		&:before {
+		  font-family: "foundation-icons";
+		  content: "\f172";
+		  font-weight: 300;
+		  padding-top: 0.2rem;
+		  font-size: 2rem;
+		  color: #a9a9a9;
+		  padding-left: 0.5rem;
+		  padding-right: 1.85rem;
+		  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+   		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: #a9a9a9;
+		}
+	}
+	p {
+		color: #a9a9a9;
+		font-weight: 100;
+		font-size: 0.875rem;
+		margin-bottom: 3rem;
+		margin-left: 3.5rem;
+	}
+	p.form-lead {
+		font-weight: 200;
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+		margin-left: 0;
+	}
+	p.form-lead-in {
+		color: #E87E04;
+		font-weight: 300;
+		font-size: 1.3rem;
+		margin-bottom: 0.5rem;
+		margin-left: 0;
+	}
+	.social i {
+		font-size: 1.8rem;
+		font-weight: 300;
+		color: #E87E04;
+		margin: 0;
+		padding: 4px 8px 4px 8px;
+		border: 2px solid #E87E04;
+		border-radius: 50%;
+	}
+	@media only screen and (max-width: 40em) {
+		.social i {
+			font-size: 2rem;
+			margin-right: 0.5rem;
+		}
+	}
+	.inline-list {
+		margin: 0 0 0.5rem -0.3rem;
+	  > li {
+		  margin-left: 0.5rem;
+		}
+	}
+	@media only screen and (max-width: 40em) {
+		.inline-list > li {
+	  	margin-bottom: 0.875rem;
+		}
+	}
+	.button {
+		background: transparent;
+		border: 2px solid #E87E04;
+		color: #a9a9a9;
+		&:hover {
+			background: #E87E04;
+			border: 2px solid #a9a9a9;
+			color: #fff;
+		}
+	}
+}
