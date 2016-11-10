@@ -17,7 +17,7 @@ body {
     list-style-type: none; }
 
 .hero {
-  background: url("http://ibnhamdan.me/cover.jpg");
+  background: url("http://ibnhamdan.me/_build/cover.jpg");
   background-size: cover;
   background-position: center;
   padding-top: 180px;
