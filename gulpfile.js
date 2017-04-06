@@ -13,18 +13,18 @@ gulp.task('panini', function(){
         root:'src/pages/',
         layouts: 'src/layouts/'
     }))
-    .pipe(gulp.dest('_build'));
+    .pipe(gulp.dest('./'));
 });
 
 
 gulp.task('javascript', function() {
-  return gulp.src(['assts/js/*.js','bower_components/jquery/dist/jquery.js', 'bower_components/foundation-sites/dist/foundation.js'])
+  return gulp.src(['assts/js/*.js','bower_components/jquery/dist/jquery.js', 'bower_components/foundation-sites/dist/js/foundation.js'])
     .pipe(gulp.dest('_build/js'));
 });
 
 
 gulp.task('sass', function() {
-  return gulp.src(['assets/scss/*', 'bower_components/foundation-sites/dist/foundation.css', 'bower_components/Ionicons/css/ionicons.css'])
+  return gulp.src(['assets/scss/*', 'bower_components/foundation-sites/dist/css/foundation.css', 'bower_components/Ionicons/css/ionicons.css'])
   .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('_build/css'));
 });
@@ -32,7 +32,7 @@ gulp.task('sass', function() {
 
 
 gulp.task('server',['build'], function(){
-    browser.init({server:'_build',})
+    browser.init({server:'./',})
 });
 
 
