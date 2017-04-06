@@ -39,19 +39,7 @@ body{
         color: #c2185b;
         font-weight: 200;
     }
-	&::after {
-		display: block;
-		position: absolute;
-		content: '';
-		left: 0;
-		right: 0;
-		transform: skewY(-3.5deg);
-		transform-origin: 100%;
-		z-index: -1;;
-		height: 15%;
-		background: #12002a;
-		bottom: -5px;
-	}
+
 	
 }
 // .hero {
